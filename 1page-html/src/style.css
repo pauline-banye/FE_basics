@@ -1,12 +1,14 @@
 .all-browsers {
   margin: 0;
   padding: 5px;
+  /* background-color: rgba(129, 225, 249, 0.536); */
   background-color: rgba(252, 240, 179, 0.781);
 }
 
 .all-browsers > h1, .browser {
   margin: 20px;
   padding: 15px;
+  /* border: 2px solid rgba(32, 203, 233, 0.771); */
   border: 2px solid rgba(233, 213, 32, 0.771);
 }
 
@@ -17,4 +19,10 @@
 .browser > h2, p {
   margin: 4px;
   font-size: 90%;
+}
+
+h2 {
+  margin: auto;
+  color: rgb(4, 4, 4);
+  padding: 1rem 3rem;
 }
