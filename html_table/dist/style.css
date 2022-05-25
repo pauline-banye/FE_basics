@@ -1,0 +1,86 @@
+body {
+	font-size: 100%;
+	font-family: arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+.text {
+	font-size: 1.2em;
+	/* line-height: 1.4em; */
+	padding: 2px;
+	font-weight: bold;
+	text-align: center;
+}
+
+table,
+th,
+td {
+	padding: 5px;
+	border: 1px solid rgb(127, 168, 174);
+	border-spacing: 5px;
+	border-radius: 3px;
+}
+
+table {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+td {
+	text-align: left;
+}
+
+tr:hover {
+	background-color: #dadcde;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.scores {
+	font-style: oblique;
+}
+
+.total {
+	font-weight: bold;
+	text-align: end;
+}
+
+.head {
+	text-align: center;
+	font-size: 0.9em;
+	font-weight: bold;
+	background-color: rgb(174, 236, 244);
+}
+
+.head:hover {
+	background-color: rgb(121, 188, 255);
+}
+
+.subhead {
+	text-align: center;
+	font-size: 0.8em;
+	font-weight: bold;
+	background-color: rgb(196, 199, 213);
+}
+
+.subhead:hover {
+	background-color: rgb(70, 70, 72);
+	color: white;
+	font-style: italic;
+}
+
+.general {
+	color: black;
+	font-size: 0.85em;
+}
+
+.divider {
+	height: 6px;
+	width: 100%;
+	margin: 0;
+	background-color: rgb(64, 64, 63);
+  }

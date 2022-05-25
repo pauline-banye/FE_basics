@@ -1,0 +1,130 @@
+/* GENERAL */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 14px;
+  color: black;
+  line-height: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  background-color: white;
+}
+
+/* CONTAINER */
+.container {
+  width: 70%;
+  height: 100%;
+  color: rgb(152, 152, 152);
+  background-color: rgb(247, 246, 240);
+  text-align: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  margin: auto;
+  font-family: "Raleway", sans-serif;
+}
+
+/* DIVIDERS/HEADERS */
+.header {
+  height: 36px;
+  width: 100%;
+  margin: 0;
+  color: rgb(247, 246, 240);
+  text-align: center;
+  font-size: 18px;
+  line-height: 36px;
+  background-color: rgb(64, 64, 63);
+}
+
+.divider {
+  height: 6px;
+  width: 100%;
+  margin: 0;
+  background-color: rgb(64, 64, 63);
+}
+
+/* TEXT */
+.h1 {
+  font-size: 170%;
+  text-align: center;
+  margin: 35px 0 10px;
+  padding-bottom: px;
+  font-size: 150%;
+  font-weight: normal;
+}
+
+p {
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: larger;
+}
+
+blockquote {
+  font-style: oblique;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+li {
+  display: flex;
+  text-align: justify;
+  padding-right: 40px;
+}
+
+strong {
+  padding-right: 5px;
+}
+
+ul {
+  align-items: center;
+}
+
+h3 {
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* IMAGES */
+figure {
+  margin: auto;
+  width: 95%;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 70%;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  line-height: 0.7rem;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  padding: 0px 5px;
+  border-radius: 10%;
+  margin: 5px 10px;
+  border: 2px;
+}
+
+.new {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-img {
+  flex-basis: 35%;
+  order: 2;
+  padding: 20px;
+}
