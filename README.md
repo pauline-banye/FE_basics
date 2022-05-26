@@ -25,5 +25,5 @@ Link to the completed task: [Tribute Page2](https://codepen.io/PaulynB/pen/KKQXy
 
 | <b><u>Stack</u></b>          | <b><u>Usage</u></b>   |
 | :--------------------------- | :-------------------- |
-| **`HTML`**             | Structure of the table |
-| **`CSS`**               | Design and table structure  |
+| **`HTML`**             | Structure of the pagee |
+| **`CSS`**               | Design and page structure  |
